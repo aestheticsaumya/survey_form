@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1 id="title">Internship Program from Saumya Infotech</h1>
+        <p id="description">Fill the below form carefully for internship at Saumya Infotech </p>
+        <h4>Internship Program Details:</h4>
+        <ul>
+          <li>Duration: 1 Month</li>
+          <li>Last Date to Register: 13th April 2024</li>
+          <li>Internship Starting Date: 25th April 2024</li>
+          <li>Eligibility: Any Student who are willing to learn new things</li>
+          <li>Location: Work from Home</li>
+          <li>Perks:Completion Certificate</li>
+        </ul>
+        <h4>Internship Domains:</h4>
+        <ul>
+          <li>C Programming</li>
+          <li>C++ Programming</li>
+          <li>Java</li>
+          <li>Data Science</li>
+          <li>Cybersecurity</li>
+          <li>Data Analytics</li>
+          <li>Artificial Intelligence</li>
+          <li>Machine Learning</li>
+          <li>Python</li>
+          <li>Full-Stack Development</li>
+          <li>Web Development</li>
+          <li>Front-End Development</li>
+          <li>AWS Cloud</li>
+          <li>Android</li>
+        </ul>
+      </header>
+      <form id="survey-form">
+        <div class="input-element">
+          <label id="name-label" for="name">Name: </label>
+          <input id="name" type="text" placeholder="name" required />
+        </div>
+
+        <div class="input-element">
+          <label id="number-label">Age: <input placeholder="age" id="number"  min="15" max="30" type="number" required /></label>
+        </div>
+
+        <div class="input-element">
+          <label id="phone-label">Contact Number: <input id="phone" type="number" placeholder="phone number" required /></label>
+        </div>
+
+        <div class="input-element">
+          <label id="city-label">City: <input id="city" type="text" placeholder="city" required /></label>
+        </div>
+
+        <div class="input-element">
+          <label id="state-label">State:
+            <select id="dropdown">
+              <option>Maharashtra</option>
+              <option>Odisha</option>
+              <option>Bihar</option>
+              <option>Bangalore</option>
+              <option>Delhi</option>
+              <option>Karnataka</option>
+              <option>Chennai</option>
+              <option>Hyderabad</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="input-element">
+          <label id="email-label">Email Id: <input id="email" type="email" placeholder="email" required /></label>
+        </div>
+
+        <div class="input-element">
+          <label id="degree-label">Degree: <input id="degree" type="text" placeholder="degree" required /></label>
+        </div>
+
+        <div class="input-element">
+          <label>Branch:</label>
+          <div>
+            <label><input type="radio" name="branch" value="computer" />Computer</label>
+          </div>
+          <div>
+            <label><input type="radio" name="branch" value="it" />IT</label>
+          </div>
+          <div>
+            <label><input type="radio" name="branch" value="electronics" />Electronics</label>
+          </div>
+          <div>
+            <label><input type="radio" name="branch" value="electrical" />Electrical</label>
+          </div>
+          <div>
+            <label><input type="radio" name="branch" value="mechanical" />Mechanical</label>
+          </div>
+          <div>
+            <label><input type="radio" name="branch" value="civil" />Civil</label>
+          </div>
+          <div>
+            <label><input type="radio" name="branch" value="management" />Management</label>
+          </div>
+          <div>
+            <label><input  type="radio" name="branch" value="other" />Other</label>
+          </div>
+        </div>
+
+        <div class="input-element">
+          <label id="college-label">College Name: <input id="college" type="text" placeholder="college name" required /></label>
+        </div>
+
+        <div class="input-element">
+          <label>Interested Domain:</label>
+          <div>
+            <label><input type="checkbox" name="domain" value="c" />C Programming</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="cpp" />C++ Programming</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="java" />Java</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="data_science" />Data Science</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="cybersecurity" />Cybersecurity</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="data_analytics" />Data Analytics</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="ai" />Artificial Intelligence</label>
+          </div>
+          <div>
+            <label><input  type="checkbox" name="domain" value="machine_learning" />Machine Learning</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="python" />Python</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="full_stack" />Full-Stack Development</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="web" />Web Development</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="frontend" />Front-End Development</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="aws" />AWS Cloud</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="domain" value="android" />Android</label>
+          </div>  
+        </div>
+
+        <div class="input-element">
+          <label id="feedback-label">Feedback / Comments</label>
+          <textarea id="feedback" type="text"></textarea>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: burlywood; 
+    text-align: center;
+  }
+  h4,ul{
+    text-align: left;
+  }
+  form{
+    max-width: 1000px;
+    text-align: left;
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  select, input{
+    padding: 5px;
+    border: 2px;
+    border-radius: 5px;
+  }
+  .input-element{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  input[type="checkbox"]{
+    width: 15px;
+    height: 15px
+  }
